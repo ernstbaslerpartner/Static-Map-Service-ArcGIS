@@ -1,3 +1,8 @@
+# Info on forked version
+
+This fork just modifies the original code such it can be deployed on Azure with
+[continuous deployment](https://github.com/blog/2056-automating-code-deployment-with-github-and-azure).
+
 # Static Map Service ArcGIS
 You will be able to get static maps like this:
 
@@ -9,7 +14,7 @@ To install this service you just need to run:
 ```zsh
 $ git clone git@github.com:esri-es/Static-Map-Service-ArcGIS.git
 $ npm install
-$ node index.js
+$ node server.js
 ```
 Allowed parameters (concatenate using &): 
 
@@ -51,3 +56,6 @@ You can find a custom Javascript class inside the repo [Static-Maps-API-ArcGIS](
 
 # Testing environment
 You can test it using the [testing instance at Heroku](https://staticmapservice.herokuapp.com/?center=Brooklyn+Bridge,New+York,NY&zoom=13&size=600x300&maptype=streets&markers=color:purple%7C40.702147,-74.015794&markers=color:orange%7C40.711614,-74.012318&markers=color:orange%7C40.718217,-73.998284)
+
+
+You can test it using a [testing instance on Azure](http://static-maps.azurewebsites.net/?center=Brooklyn+Bridge,New+York,NY&zoom=13&size=600x300&maptype=streets&markers=color:purple%7C40.702147,-74.015794&markers=color:orange%7C40.711614,-74.012318&markers=color:orange%7C40.718217,-73.998284)
