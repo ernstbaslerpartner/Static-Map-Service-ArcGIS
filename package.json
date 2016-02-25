@@ -13,7 +13,7 @@
         "arcgis-json-objects": "*"
     },
     "scripts": {
-        "start": "node index.js"
+        "start": "node server.js"
     },
     "engines": {
         "node": "0.10.28"
